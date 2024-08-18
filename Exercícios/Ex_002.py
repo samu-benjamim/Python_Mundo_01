@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+print(f"Prazer em conhecer você {nome}!")
+ano = int(input("Digite o ano que você nasceu: "))
+idade = (2024 - ano)
+print("Sua idade é {}".format(idade))

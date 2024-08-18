@@ -1,0 +1,6 @@
+nome = str(input("Digite seu nome completo: ")).strip()
+list_nome = nome.split()
+n_list = len(list_nome)
+print("Prazer em conhecer você.")
+print("Seu primeiro nome é {}.".format(list_nome[0]))
+print("Seu ultimo nome é {}".format(list_nome [n_list - 1]))
